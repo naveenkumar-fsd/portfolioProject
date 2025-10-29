@@ -26,5 +26,5 @@ A modern responsive personal portfolio website built using *HTML, CSS, and JavaS
 
 ### 📬 Contact
 - GitHub: https://github.com/naveenkumar-fsd
-- Email:naveenkumar977912345
--
+- Email:naveenkumar977912345@gmail.com
+
