@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen's Portfolio & Blog</title>
+  <link rel="stylesheet" href="portfolioProject.css"/>
+  
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HOME SECTION ===== -->
+  <section id="home" class="fade-in">
+    <div class="home-content">
+      <h2 class="typing">Hello, I'm Naveen 👋</h2>
+      <p>Aspiring Frontend Developer | HTML • CSS • JS • React</p>
+      <button onclick="downloadResume()">Download Resume</button>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>
+      I'm passionate about building interactive, responsive websites. 
+      I enjoy solving real-world problems using frontend technologies.
+    </p>
+  </section>
+
+  <!-- ===== BLOG SECTION ===== -->
+  <section id="blog" class="fade-in">
+    <h2>My Blogs</h2>
+    <input type="text" id="search" placeholder="Search blog..." onkeyup="searchBlog()">
+
+    <div class="blog-container" id="blogList">
+      <div class="blog-card">
+        <h3>Getting Started with HTML</h3>
+        <p>HTML is the backbone of the web. Let's explore its basics.</p>
+      </div>
+      <div class="blog-card">
+        <h3>Mastering CSS Layouts</h3>
+        <p>Flexbox and Grid make modern layouts easier than ever.</p>
+      </div>
+      <div class="blog-card">
+        <h3>JavaScript for Beginners</h3>
+        <p>Understand DOM manipulation and event handling with JS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Naveen Kumar | All Rights Reserved</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="portfolioProject.js"></script>
+</body>
+</html>
